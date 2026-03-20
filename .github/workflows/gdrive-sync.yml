@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Upload to Google Drive
-        uses: J_S_G/google-drive-upload-git-action@main
+        uses: adityak74/google-drive-upload-git-action@main
         with:
           credentials: ${{ secrets.GDRIVE_CREDENTIALS }}
           filename: 'latest.json'
