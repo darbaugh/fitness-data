@@ -1,0 +1,19 @@
+name: Push to Google Drive
+on:
+  push:
+    paths:
+      - 'latest.json'
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Upload to Google Drive
+        uses: willo32/google-drive-upload-action@v1
+        with:
+          target: 'latest.json'
+          credentials: ${{ secrets.GDRIVE_CREDENTIALS }}
+          parent_folder_id: 'PASTE_YOUR_FOLDER_ID_HERE'
