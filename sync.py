@@ -514,9 +514,19 @@ class IntervalsSync:
         print(f"Fetching activities (extended {days_for_acwr} days for ACWR)...")
         activities_extended = self._intervals_get("activities", {"oldest": oldest_extended, "newest": newest})
         
-        # Filter to display range for recent_activities
-        activities_display = [a for a in activities_extended 
-                             if a.get("start_date_local", "")[:10] >= oldest_display]
+        # Filter to display range and fetch granular interval details
+        activities_display = []
+        for a in activities_extended:
+            if a.get("start_date_local", "")[:10] >= oldest_display:
+                # Fetch interval detail for high-intensity sessions
+                sport_family = self.SPORT_FAMILIES.get(a.get("type"), "other")
+                if sport_family in self.INTERVAL_SPORT_FAMILIES:
+                    if self.debug:
+                        print(f"    🔍 Fetching interval detail for {a.get('id')} ({a.get('name')})...")
+                    intervals = self._fetch_activity_intervals(a["id"])
+                    if intervals:
+                        a["icu_intervals"] = intervals
+                activities_display.append(a)
         
         print("Fetching wellness data...")
         wellness = self._intervals_get("wellness", {"oldest": oldest_display, "newest": newest})
@@ -4493,6 +4503,19 @@ class IntervalsSync:
                 "efficiency_factor": act.get("icu_efficiency_factor"),
                 "hrrc": raw_hrrc,
                 "elevation_m": act.get("total_elevation_gain"),
+                "laps": [
+                    {
+                        "id": i.get("id"),
+                        "label": i.get("label"),
+                        "type": i.get("type"),
+                        "duration_s": i.get("elapsed_time"),
+                        "avg_watts": i.get("average_watts") or i.get("avg_watts"),
+                        "avg_hr": i.get("average_heartrate") or i.get("avg_hp"),
+                        "max_hr": i.get("max_heartrate") or i.get("max_hp"),
+                        "avg_cadence": i.get("average_cadence")
+                    }
+                    for i in act.get("icu_intervals", []) if i.get("type") == "work"
+                ],
                 "feel": act.get("feel"),
                 "rpe": act.get("icu_rpe"),
                 "zone_distribution": zone_dist,
