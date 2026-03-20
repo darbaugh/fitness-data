@@ -1,21 +1,42 @@
-name: Push to Google Drive
+name: Section 11 Fitness Data Sync
+
 on:
-  workflow_dispatch:
-  push:
-    paths:
-      - 'latest.json'
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch: # Allows you to run it manually
 
 jobs:
-  upload:
+  sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+      - name: Run Intervals.icu Sync
+        env:
+          INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
+          INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+        run: python sync.py
 
       - name: Upload to Google Drive
-        uses: adityak74/google-drive-upload-git-action@main
+        env:
+          GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
+        run: python upload_to_drive.py
+
+      - name: Commit and Push local changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          credentials: ${{ secrets.GDRIVE_CREDENTIALS }}
-          filename: 'latest.json'
-          folderId: '1ad7X3Ha4HLxGw0JPQcHK8o-fBHngM5xN'
-          overwrite: 'true'
+          commit_message: "Automated data sync: ${{ github.event_name }}"
+          file_pattern: 'data/*.json' # Adjust this if your data folder name is different
