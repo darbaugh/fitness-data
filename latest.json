@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-20T03:27:32.403238",
+    "last_updated": "2026-03-20T03:39:51.808816",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -418,7 +418,7 @@
     "p_max": 1399,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-20T03:27:29.382073",
+    "calculation_timestamp": "2026-03-20T03:39:51.807679",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -462,6 +462,7 @@
       "efficiency_factor": 1.8248175,
       "hrrc": 28,
       "elevation_m": 933.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -516,6 +517,7 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": 36.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -561,6 +563,7 @@
       "efficiency_factor": 1.5905511,
       "hrrc": null,
       "elevation_m": 410.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -615,6 +618,7 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": 13.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -660,6 +664,7 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": 183.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -705,6 +710,7 @@
       "efficiency_factor": 1.300885,
       "hrrc": null,
       "elevation_m": 298.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -759,6 +765,7 @@
       "efficiency_factor": 1.8055556,
       "hrrc": 23,
       "elevation_m": 1194.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -813,6 +820,7 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": 31.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -858,6 +866,7 @@
       "efficiency_factor": 1.1263158,
       "hrrc": null,
       "elevation_m": 183.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -912,6 +921,7 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": 64.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -957,6 +967,7 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": 34.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -1002,6 +1013,7 @@
       "efficiency_factor": 1.1217391,
       "hrrc": null,
       "elevation_m": 32.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -1056,6 +1068,7 @@
       "efficiency_factor": 1.706767,
       "hrrc": null,
       "elevation_m": 44.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -1110,6 +1123,7 @@
       "efficiency_factor": 1.7894737,
       "hrrc": null,
       "elevation_m": 2309.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -1164,6 +1178,7 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": 31.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -1209,6 +1224,7 @@
       "efficiency_factor": 1.0695652,
       "hrrc": null,
       "elevation_m": 34.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
@@ -1263,6 +1279,7 @@
       "efficiency_factor": 1.7253522,
       "hrrc": null,
       "elevation_m": 1929.0,
+      "laps": [],
       "feel": null,
       "rpe": null,
       "zone_distribution": {
