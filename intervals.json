@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T23:43:12.373156",
+  "generated_at": "2026-04-03T01:01:57.533947",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1728,6 +1728,25 @@
           "zone": 1,
           "training_load": 10.902765,
           "decoupling": -3.8501515
+        }
+      ]
+    },
+    {
+      "activity_id": "i136808866",
+      "date": "2026-04-02",
+      "type": "Ride",
+      "name": "Evening Ride",
+      "interval_summary": [
+        "1x 1h3m 122bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3822s@122bpm",
+          "duration_secs": 3822,
+          "avg_hr": 122,
+          "max_hr": 147,
+          "zone": 1
         }
       ]
     }
