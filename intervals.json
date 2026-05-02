@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T17:43:03.605682",
+  "generated_at": "2026-05-02T18:35:52.254444",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -732,6 +732,52 @@
           "zone": 1,
           "training_load": 18.499805,
           "decoupling": 14.32587
+        }
+      ]
+    },
+    {
+      "activity_id": "i144870233",
+      "date": "2026-05-02",
+      "type": "Ride",
+      "name": "Poolesville Road Cycling",
+      "interval_summary": [
+        "1x 11s 511w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2580,
+          "avg_power": 107,
+          "max_power": 461,
+          "avg_hr": 125,
+          "max_hr": 161,
+          "avg_cadence": 62.071796,
+          "zone": 1,
+          "training_load": 4.7653136
+        },
+        {
+          "type": "WORK",
+          "label": "11s@511w112rpm",
+          "duration_secs": 11,
+          "avg_power": 511,
+          "max_power": 583,
+          "avg_hr": 153,
+          "max_hr": 158,
+          "avg_cadence": 111.818184,
+          "zone": 7,
+          "training_load": 0.19407688,
+          "decoupling": 6.9380608
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 220,
+          "avg_power": 108,
+          "max_power": 476,
+          "avg_hr": 144,
+          "max_hr": 165,
+          "avg_cadence": 67.12214,
+          "zone": 1,
+          "training_load": 1.5758902
         }
       ]
     }
