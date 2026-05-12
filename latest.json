@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 25.14,
       "total_training_formatted": "25h8m",
-      "total_activities": 17,
+      "total_activities": 18,
       "total_tss": 840
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-12T16:04:59.805856",
+    "last_updated": "2026-05-12T18:17:43.125934",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -138,11 +138,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 25.14,
-    "total_activities": 17,
+    "total_activities": 18,
     "by_activity_type": {
       "Hike": {
         "duration_decimal_hours": 2.74,
-        "count": 6,
+        "count": 7,
         "tss": 31,
         "distance_km": 14.8
       },
@@ -275,7 +275,7 @@
     "hard_days_this_week": 3,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 79003,
+      "z1_seconds": 79004,
       "z2_seconds": 6886,
       "z3_seconds": 4528,
       "z1_pct": 87.4,
@@ -298,7 +298,7 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 348994,
+      "z1_seconds": 348995,
       "z2_seconds": 28316,
       "z3_seconds": 26727,
       "z1_pct": 86.4,
@@ -418,12 +418,12 @@
     "p_max": 1368,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-12T16:04:59.804484",
+    "calculation_timestamp": "2026-05-12T18:17:43.124508",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 17,
-      "activities_28d": 75,
+      "activities_7d": 18,
+      "activities_28d": 76,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -432,6 +432,52 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i147627892",
+      "date": "2026-05-12T13:18:40",
+      "type": "Hike",
+      "name": "Training Session",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": 0,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 91,
+      "max_hr": 91,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 0.0,
+      "laps": [],
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 1,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false
+    },
     {
       "id": "i147383737",
       "date": "2026-05-11T20:06:38",
@@ -1594,7 +1640,7 @@
     "total_training_hours": 25.14,
     "total_training_formatted": "25h8m",
     "total_tss": 840,
-    "activities_count": 17,
+    "activities_count": 18,
     "avg_hrv": 55.0,
     "avg_resting_hr": 49.0
   },
