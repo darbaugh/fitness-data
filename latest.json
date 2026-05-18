@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-18T19:12:01.770340",
+    "last_updated": "2026-05-18T20:46:12.373095",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -366,10 +366,8 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": -2.48,
@@ -379,10 +377,10 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
-          "race_proximity": null,
+          "hard_sessions_planned": 1,
+          "race_proximity": 2,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -394,9 +392,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -418,7 +414,7 @@
     "p_max": 1368,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-18T19:12:01.768862",
+    "calculation_timestamp": "2026-05-18T20:46:12.371649",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1583,7 +1579,32 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 110979564,
+      "date": "2026-05-20",
+      "name": "The Lisa Mary Martin Memorial Greenbelt Park Training Race - 2026 Week 2",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 110979419,
+      "date": "2026-06-13",
+      "name": "2026 JAMES P. BELLORA MEMORIAL GIRO DI COPPI & MABRA MASTERS ROAD CHAMPIONSHIPS",
+      "type": "RACE_A",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": null
+    }
+  ],
   "workout_summary_stats": {
     "attempted": 0,
     "success": 0,
@@ -1601,8 +1622,44 @@
     "avg_resting_hr": 48.1
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "The Lisa Mary Martin Memorial Greenbelt Park Training Race - 2026 Week 2",
+      "date": "2026-05-20",
+      "category": "RACE_C",
+      "type": "Ride",
+      "days_until": 2,
+      "moving_time_seconds": null,
+      "distance_meters": null
+    },
+    "all_races": [
+      {
+        "name": "The Lisa Mary Martin Memorial Greenbelt Park Training Race - 2026 Week 2",
+        "date": "2026-05-20",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 2,
+        "moving_time_seconds": null,
+        "distance_meters": null
+      },
+      {
+        "name": "2026 JAMES P. BELLORA MEMORIAL GIRO DI COPPI & MABRA MASTERS ROAD CHAMPIONSHIPS",
+        "date": "2026-06-13",
+        "category": "RACE_A",
+        "type": "Ride",
+        "days_until": 26,
+        "moving_time_seconds": null,
+        "distance_meters": null
+      },
+      {
+        "name": "Mt. Davis Challenge",
+        "date": "2026-07-26",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 69,
+        "moving_time_seconds": null,
+        "distance_meters": null
+      }
+    ],
     "taper_alert": {
       "active": false
     },
