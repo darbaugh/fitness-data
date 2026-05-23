@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T21:54:51.598212",
+  "generated_at": "2026-05-23T22:53:25.681751",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1684,6 +1684,52 @@
           "avg_cadence": 64.0471,
           "zone": 1,
           "training_load": 11.31608
+        }
+      ]
+    },
+    {
+      "activity_id": "i150922282",
+      "date": "2026-05-23",
+      "type": "VirtualRide",
+      "name": "Zwift - Pacer Group Ride with Genie",
+      "interval_summary": [
+        "1x 47m39s 278w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3157,
+          "avg_power": 194,
+          "max_power": 280,
+          "avg_hr": 128,
+          "max_hr": 137,
+          "avg_cadence": 73.345276,
+          "zone": 2,
+          "training_load": 30.66
+        },
+        {
+          "type": "WORK",
+          "label": "2859s@278w78rpm",
+          "duration_secs": 2859,
+          "avg_power": 278,
+          "max_power": 356,
+          "avg_hr": 159,
+          "max_hr": 168,
+          "avg_cadence": 78.032875,
+          "zone": 3,
+          "training_load": 56.76651,
+          "decoupling": 5.925553
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4491,
+          "avg_power": 194,
+          "max_power": 290,
+          "avg_hr": 137,
+          "max_hr": 166,
+          "avg_cadence": 67.81545,
+          "zone": 2,
+          "training_load": 30.588667
         }
       ]
     }
