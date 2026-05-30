@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-30T11:51:49.801086",
+    "last_updated": "2026-05-30T13:38:14.719526",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -91,10 +91,10 @@
     "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 56.7,
-        "delta_pct": null
+        "status": "green",
+        "value": 61.0,
+        "baseline_7d": 57.3,
+        "delta_pct": 6.5
       },
       "rhr": {
         "status": "amber",
@@ -103,17 +103,17 @@
         "delta_bpm": 3.3
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 8.28,
+        "quality": 1
       },
       "acwr": {
         "status": "green",
         "value": 0.94
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 0.99
       },
       "tsb": {
         "status": "green",
@@ -121,10 +121,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 5,
       "amber": 1,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -223,11 +223,11 @@
     "current_metrics": {
       "weight_kg": 68.946,
       "resting_hr": 50,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "hrv": 61.0,
+      "sleep_quality": 1,
+      "sleep_hours": 8.28,
+      "sleep_formatted": "8h17m",
+      "sleep_score": 90.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -244,7 +244,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 335,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -256,12 +256,12 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 56.7,
+    "recovery_index": 0.99,
+    "hrv_baseline_7d": 57.3,
     "rhr_baseline_7d": 46.7,
-    "hrv_baseline_28d": 56.9,
+    "hrv_baseline_28d": 57.1,
     "rhr_baseline_28d": 48,
-    "latest_hrv": null,
+    "latest_hrv": 61.0,
     "latest_rhr": 50,
     "acwr": 0.94,
     "acwr_interpretation": "optimal",
@@ -274,7 +274,7 @@
     "multi_sport_detected": true,
     "strain": 1605.0,
     "stress_tolerance": 11.0,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 11.1,
     "tss_7d_total": 1099.0,
     "tss_28d_total": 4657.0,
     "zone_distribution_7d": {
@@ -437,9 +437,9 @@
     "p_max": 1364,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-30T11:51:49.799663",
+    "calculation_timestamp": "2026-05-30T13:38:14.718110",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 16,
       "activities_28d": 74,
@@ -1500,12 +1500,12 @@
       "date": "2026-05-30",
       "weight_kg": null,
       "resting_hr": 50,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 61.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.28,
+      "sleep_formatted": "8h17m",
+      "sleep_quality": 1,
+      "sleep_score": 90.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1525,7 +1525,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 335,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1563,7 +1563,7 @@
     "total_training_formatted": "26h45m",
     "total_tss": 1099,
     "activities_count": 16,
-    "avg_hrv": 56.7,
+    "avg_hrv": 57.3,
     "avg_resting_hr": 46.7
   },
   "race_calendar": {
