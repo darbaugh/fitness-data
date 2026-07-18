@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T21:26:25.522172",
+  "generated_at": "2026-07-18T22:23:58.366597",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1016,6 +1016,79 @@
           "zone": 1,
           "training_load": 27.4332,
           "decoupling": -8.317784
+        }
+      ]
+    },
+    {
+      "activity_id": "i166990249",
+      "date": "2026-07-18",
+      "type": "VirtualRide",
+      "name": "Zwift - Road to Sky in Watopia",
+      "interval_summary": [
+        "2x 15m10s 328w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2002,
+          "avg_power": 164,
+          "max_power": 463,
+          "avg_hr": 124,
+          "max_hr": 153,
+          "avg_cadence": 70.948715,
+          "zone": 1,
+          "training_load": 18.798454,
+          "decoupling": -8.277838
+        },
+        {
+          "type": "WORK",
+          "label": "910s@328w83rpm",
+          "duration_secs": 907,
+          "avg_power": 330,
+          "max_power": 400,
+          "avg_hr": 168,
+          "max_hr": 175,
+          "avg_cadence": 83.412346,
+          "zone": 4,
+          "training_load": 25.194445,
+          "decoupling": 3.541541
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 531,
+          "avg_power": 110,
+          "max_power": 314,
+          "avg_hr": 128,
+          "max_hr": 172,
+          "avg_cadence": 67.74011,
+          "zone": 1,
+          "training_load": 2.8370128,
+          "decoupling": -47.5267
+        },
+        {
+          "type": "WORK",
+          "label": "910s@328w83rpm",
+          "duration_secs": 912,
+          "avg_power": 325,
+          "max_power": 392,
+          "avg_hr": 171,
+          "max_hr": 179,
+          "avg_cadence": 82.37719,
+          "zone": 4,
+          "training_load": 24.420496,
+          "decoupling": 5.0644283
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 10257,
+          "avg_power": 199,
+          "max_power": 321,
+          "avg_hr": 133,
+          "max_hr": 178,
+          "avg_cadence": 71.290436,
+          "zone": 2,
+          "training_load": 107.76315,
+          "decoupling": -1.4503355
         }
       ]
     }
