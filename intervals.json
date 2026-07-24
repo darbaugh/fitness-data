@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T23:39:07.514504",
+  "generated_at": "2026-07-24T01:08:46.396695",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1140,6 +1140,79 @@
           "zone": 2,
           "training_load": 22.553492,
           "decoupling": 5.840773
+        }
+      ]
+    },
+    {
+      "activity_id": "i168626556",
+      "date": "2026-07-23",
+      "type": "Ride",
+      "name": "Montgomery County Road Cycling",
+      "interval_summary": [
+        "2x 67s 369w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3120,
+          "avg_power": 147,
+          "max_power": 399,
+          "avg_hr": 125,
+          "max_hr": 144,
+          "avg_cadence": 66.95813,
+          "zone": 1,
+          "training_load": 22.20086,
+          "decoupling": -16.324806
+        },
+        {
+          "type": "WORK",
+          "label": "67s@369w89rpm",
+          "duration_secs": 70,
+          "avg_power": 365,
+          "max_power": 455,
+          "avg_hr": 150,
+          "max_hr": 160,
+          "avg_cadence": 88.24286,
+          "zone": 5,
+          "training_load": 2.1252296,
+          "decoupling": 10.846483
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2256,
+          "avg_power": 183,
+          "max_power": 420,
+          "avg_hr": 129,
+          "max_hr": 160,
+          "avg_cadence": 74.23393,
+          "zone": 2,
+          "training_load": 22.983072,
+          "decoupling": 6.559603
+        },
+        {
+          "type": "WORK",
+          "label": "67s@369w89rpm",
+          "duration_secs": 63,
+          "avg_power": 372,
+          "max_power": 431,
+          "avg_hr": 145,
+          "max_hr": 157,
+          "avg_cadence": 88.85714,
+          "zone": 5,
+          "training_load": 1.8795868,
+          "decoupling": 9.373814
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1473,
+          "avg_power": 121,
+          "max_power": 355,
+          "avg_hr": 112,
+          "max_hr": 156,
+          "avg_cadence": 64.16228,
+          "zone": 1,
+          "training_load": 8.969881,
+          "decoupling": 13.30357
         }
       ]
     }
