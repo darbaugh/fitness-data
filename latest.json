@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-26T09:46:03.224987",
+    "last_updated": "2026-07-26T11:18:41.940940",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -100,10 +100,10 @@
     "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 59.7,
-        "delta_pct": null
+        "status": "green",
+        "value": 79.0,
+        "baseline_7d": 62.4,
+        "delta_pct": 26.6
       },
       "rhr": {
         "status": "green",
@@ -112,17 +112,17 @@
         "delta_bpm": -4.4
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.41,
+        "quality": 1
       },
       "acwr": {
         "status": "amber",
         "value": 0.53
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.4
       },
       "tsb": {
         "status": "green",
@@ -130,10 +130,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 5,
       "amber": 1,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -232,11 +232,11 @@
     "current_metrics": {
       "weight_kg": 68.946,
       "resting_hr": 43,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "hrv": 79.0,
+      "sleep_quality": 1,
+      "sleep_hours": 7.41,
+      "sleep_formatted": "7h24m",
+      "sleep_score": 93.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -253,7 +253,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 48,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -265,12 +265,12 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 59.7,
+    "recovery_index": 1.4,
+    "hrv_baseline_7d": 62.4,
     "rhr_baseline_7d": 47.4,
-    "hrv_baseline_28d": 57.4,
+    "hrv_baseline_28d": 58.2,
     "rhr_baseline_28d": 47.4,
-    "latest_hrv": null,
+    "latest_hrv": 79.0,
     "latest_rhr": 43,
     "acwr": 0.53,
     "acwr_interpretation": "undertraining",
@@ -283,7 +283,7 @@
     "multi_sport_detected": true,
     "strain": 568.0,
     "stress_tolerance": 5.4,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 3.8,
     "tss_7d_total": 536.0,
     "tss_28d_total": 4057.0,
     "zone_distribution_7d": {
@@ -446,9 +446,9 @@
     "p_max": 1320,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-26T09:46:03.223546",
+    "calculation_timestamp": "2026-07-26T11:18:41.939580",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 17,
       "activities_28d": 70,
@@ -1563,12 +1563,12 @@
       "date": "2026-07-26",
       "weight_kg": null,
       "resting_hr": 43,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 79.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.41,
+      "sleep_formatted": "7h24m",
+      "sleep_quality": 1,
+      "sleep_score": 93.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1588,7 +1588,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 48,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1626,7 +1626,7 @@
     "total_training_formatted": "21h38m",
     "total_tss": 536,
     "activities_count": 17,
-    "avg_hrv": 59.7,
+    "avg_hrv": 62.4,
     "avg_resting_hr": 47.4
   },
   "race_calendar": {
