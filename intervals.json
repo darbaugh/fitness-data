@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:00:53.999283",
+  "generated_at": "2026-08-26T22:07:13.759082",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1375,6 +1375,25 @@
           "zone": 2,
           "training_load": 65.028984,
           "decoupling": -0.9923778
+        }
+      ]
+    },
+    {
+      "activity_id": "i180150402",
+      "date": "2026-08-26",
+      "type": "Ride",
+      "name": "Virginia Beach Cycling",
+      "interval_summary": [
+        "1x 15m52s 97bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "952s@97bpm",
+          "duration_secs": 952,
+          "avg_hr": 97,
+          "max_hr": 107,
+          "zone": 1
         }
       ]
     }
