@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T01:17:26.912201",
+  "generated_at": "2026-09-03T06:11:18.257886",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1038,6 +1038,94 @@
           "zone": 1,
           "training_load": 34.64125,
           "decoupling": -3.077353
+        }
+      ]
+    },
+    {
+      "activity_id": "i182676608",
+      "date": "2026-09-02",
+      "type": "Ride",
+      "name": "Montgomery County Road Cycling",
+      "interval_summary": [
+        "1x 1h12m 189w",
+        "1x 18m28s 226w",
+        "1x 28m26s 174w",
+        "1x 7m39s 216w",
+        "1x 19m16s 186w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4355s@189w76rpm",
+          "duration_secs": 4355,
+          "avg_power": 189,
+          "max_power": 481,
+          "avg_hr": 125,
+          "max_hr": 146,
+          "avg_cadence": 75.60696,
+          "zone": 2,
+          "training_load": 39.714745,
+          "decoupling": -5.8988876
+        },
+        {
+          "type": "WORK",
+          "label": "1108s@226w89rpm",
+          "duration_secs": 1108,
+          "avg_power": 226,
+          "max_power": 473,
+          "avg_hr": 133,
+          "max_hr": 149,
+          "avg_cadence": 88.91065,
+          "zone": 2,
+          "training_load": 16.143778,
+          "decoupling": 4.991077
+        },
+        {
+          "type": "WORK",
+          "label": "1706s@174w72rpm",
+          "duration_secs": 1706,
+          "avg_power": 174,
+          "max_power": 407,
+          "avg_hr": 117,
+          "max_hr": 135,
+          "avg_cadence": 72.43665,
+          "zone": 1,
+          "training_load": 12.851526,
+          "decoupling": -6.557996
+        },
+        {
+          "type": "WORK",
+          "label": "459s@216w87rpm",
+          "duration_secs": 459,
+          "avg_power": 216,
+          "max_power": 434,
+          "avg_hr": 127,
+          "max_hr": 146,
+          "avg_cadence": 87.35294,
+          "zone": 2,
+          "training_load": 6.631873,
+          "decoupling": -28.24245
+        },
+        {
+          "type": "WORK",
+          "label": "1156s@186w85rpm",
+          "duration_secs": 1156,
+          "avg_power": 186,
+          "max_power": 376,
+          "avg_hr": 127,
+          "max_hr": 144,
+          "avg_cadence": 84.828064,
+          "zone": 2,
+          "training_load": 13.205795,
+          "decoupling": 1.6481099
+        },
+        {
+          "type": "WORK",
+          "duration_secs": 3861,
+          "avg_hr": 116,
+          "max_hr": 143,
+          "zone": 1,
+          "decoupling": "NaN"
         }
       ]
     }
