@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T21:30:30.794792",
+  "generated_at": "2026-09-05T23:19:40.205050",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -1206,6 +1206,25 @@
           "zone": 1,
           "training_load": 156.80577,
           "decoupling": 10.976197
+        }
+      ]
+    },
+    {
+      "activity_id": "i183712765",
+      "date": "2026-09-05",
+      "type": "Ride",
+      "name": "Montgomery County Cycling",
+      "interval_summary": [
+        "1x 13m19s 109bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "799s@109bpm",
+          "duration_secs": 799,
+          "avg_hr": 109,
+          "max_hr": 120,
+          "zone": 1
         }
       ]
     }
