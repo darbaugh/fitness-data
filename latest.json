@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-08T08:00:00.862881",
+    "last_updated": "2026-10-08T15:30:47.445642",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -91,29 +91,29 @@
     "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 56.3,
-        "delta_pct": null
+        "status": "green",
+        "value": 52.0,
+        "baseline_7d": 55.7,
+        "delta_pct": -6.6
       },
       "rhr": {
-        "status": "amber",
-        "value": 54,
-        "baseline_7d": 50.3,
-        "delta_bpm": 3.7
+        "status": "green",
+        "value": 52,
+        "baseline_7d": 50,
+        "delta_bpm": 2
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 6.3,
+        "quality": 3
       },
       "acwr": {
         "status": "amber",
         "value": 0.64
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 0.9
       },
       "tsb": {
         "status": "green",
@@ -121,10 +121,10 @@
       }
     },
     "signal_summary": {
-      "green": 1,
+      "green": 4,
       "amber": 2,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Deload",
@@ -135,7 +135,7 @@
     "race_week_defers": false,
     "modification": {
       "triggers": [
-        "rhr",
+        "sleep",
         "acwr"
       ],
       "suggested_adjustments": {
@@ -144,7 +144,7 @@
         "cap_zone": "Z2"
       }
     },
-    "reason": "P2 signal count. 2 amber (rhr, acwr) >= threshold 2.",
+    "reason": "P2 signal count. 2 amber (sleep, acwr) >= threshold 2.",
     "alarm_refs": []
   },
   "history": {
@@ -223,12 +223,12 @@
     },
     "current_metrics": {
       "weight_kg": 68.946,
-      "resting_hr": 54,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 52,
+      "hrv": 52.0,
+      "sleep_quality": 3,
+      "sleep_hours": 6.3,
+      "sleep_formatted": "6h18m",
+      "sleep_score": 65.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -245,7 +245,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 18,
+      "steps": 132,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -257,13 +257,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 56.3,
-    "rhr_baseline_7d": 50.3,
-    "hrv_baseline_28d": 58.3,
-    "rhr_baseline_28d": 48.0,
-    "latest_hrv": null,
-    "latest_rhr": 54,
+    "recovery_index": 0.9,
+    "hrv_baseline_7d": 55.7,
+    "rhr_baseline_7d": 50,
+    "hrv_baseline_28d": 58.1,
+    "rhr_baseline_28d": 47.9,
+    "latest_hrv": 52.0,
+    "latest_rhr": 52,
     "acwr": 0.64,
     "acwr_interpretation": "undertraining",
     "monotony": 0.56,
@@ -275,7 +275,7 @@
     "multi_sport_detected": true,
     "strain": 315.0,
     "stress_tolerance": 5.6,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 6.3,
     "tss_7d_total": 563.0,
     "tss_28d_total": 3536.0,
     "zone_distribution_7d": {
@@ -438,9 +438,9 @@
     "p_max": 1280,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-08T08:00:00.861868",
+    "calculation_timestamp": "2026-10-08T15:30:47.444429",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 17,
       "activities_28d": 73,
@@ -456,7 +456,7 @@
       "id": "i194912194",
       "date": "2026-10-07T20:57:42",
       "type": "VirtualRide",
-      "name": "Zwift - Pacer Group Ride with Dani",
+      "name": "Zwift",
       "duration_hours": 0.8,
       "distance_km": 16.68,
       "tss": 2,
@@ -496,7 +496,8 @@
           "z7_time": 0
         }
       },
-      "has_intervals": false
+      "has_intervals": false,
+      "description": "\ud83d\uddfa\ufe0f Tempus Fugit in Watopia"
     },
     {
       "id": "i194878051",
@@ -1500,13 +1501,13 @@
     {
       "date": "2026-10-08",
       "weight_kg": null,
-      "resting_hr": 54,
-      "hrv_rmssd": null,
+      "resting_hr": 52,
+      "hrv_rmssd": 52.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 6.3,
+      "sleep_formatted": "6h18m",
+      "sleep_quality": 3,
+      "sleep_score": 65.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1526,7 +1527,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 18,
+      "steps": 132,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1551,8 +1552,8 @@
     "total_training_formatted": "18h9m",
     "total_tss": 563,
     "activities_count": 17,
-    "avg_hrv": 56.3,
-    "avg_resting_hr": 50.3
+    "avg_hrv": 55.7,
+    "avg_resting_hr": 50.0
   },
   "race_calendar": {
     "next_race": null,
