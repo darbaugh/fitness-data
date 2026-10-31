@@ -1,48 +1,9 @@
 {
-  "generated_at": "2026-10-30T23:16:10.354304",
+  "generated_at": "2026-10-31T02:38:08.823839",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i200572044",
-      "date": "2026-10-22",
-      "type": "Ride",
-      "name": "Montgomery County Road Cycling",
-      "interval_summary": [
-        "1x 2m19s 320w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3422,
-          "avg_power": 186,
-          "max_power": 507,
-          "avg_cadence": 80.311935,
-          "zone": 2,
-          "training_load": 39.812885
-        },
-        {
-          "type": "WORK",
-          "label": "139s@320w98rpm",
-          "duration_secs": 139,
-          "avg_power": 320,
-          "max_power": 416,
-          "avg_cadence": 97.56115,
-          "zone": 4,
-          "training_load": 3.40728
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4781,
-          "avg_power": 169,
-          "max_power": 430,
-          "avg_cadence": 75.63844,
-          "zone": 1,
-          "training_load": 38.836605
-        }
-      ]
-    },
     {
       "activity_id": "i201281713",
       "date": "2026-10-24",
